@@ -1,0 +1,41 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Large generated data
+*.jsonl
+*.sqlite3
+*.db
+*.log
+*.lock
+
+# Generated reports and datasets
+unified_indicators.csv
+cisa_kev.csv
+cisa_kev.json
+feed_inventory.csv
+cross_feed_report.csv
+feodo_feed.csv
+feodo_indicators.json
+ioc_context_report.json
+reconciliation_report.json
+unified_tip_report.json
+last_run.json
+
+# Backup files
+*.backup
+*.bak
+
+# IDE files
+.vscode/
+.idea/
